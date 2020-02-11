@@ -1,0 +1,106 @@
+<!--Tsafi IT>-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Pompiere&display=swap" rel="stylesheet">
+	  
+<style>
+	body{padding: 0;
+		 margin:0;
+	 }
+.centerTxt {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size:24px;
+}
+.centered {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+ font-size:24px;
+ background-color: red;
+
+}
+	
+	
+h1{
+padding: 0;
+margin:0;
+color:blue;
+position: absolute;	
+text-align: center;
+
+font-family: 'Pompiere', cursive;
+top: 50%;
+left: 50%;
+-ms-transform: translateX(-50%)translateY(-50%);
+-webkit-transform: translateX(-50%)translateY(-50%);
+-moz-transform: translateX(-50%)translateY(-50%);
+-o-transform:translateX(-50%)translateY(-50%);
+transform:translateX(-50%)translateY(-50%);
+}
+	.popup{
+		padding: 0;
+        margin:0;
+		width: 300px;
+		height: 300px;
+		background-color:#fff;
+		top: 50%;
+left: 50%;
+		position: absolute;	
+-ms-transform: translateX(-50%)translateY(-50%);
+-webkit-transform: translateX(-50%)translateY(-50%);
+-moz-transform: translateX(-50%)translateY(-50%);
+-o-transform:translateX(-50%)translateY(-50%);
+transform:translateX(-50%)translateY(-50%);
+display: none;		
+	}
+	.txt{
+		margin-top  : 10px;
+		margin-left :20px;
+		margin-right:20px;
+		font-weight: bold;
+		 font-size:24px;
+	}
+</style>
+  </head>
+
+  <body>
+	  <h1 id="demo" onclick="myFunction()">Centered Me<br/>It`s So Simple(:</h1>
+	  <div class='popup' onclick="ofClick()">
+		  <div class='txt'>
+			  1. Enter Your name in the center of the page make it responsive.<br/><br/>
+			  2. Color the text font in blue.<br/><br/>
+			  3. Embed font to <u>Pompiere</u>.
+		  </div>
+	  
+	  </div>
+<!--<div class="centered"> <div>centered text!</div></div>-->
+	  
+<!--
+<center>
+centered text!
+</center>-->
+
+<script>
+function myFunction() {
+ 
+		document.getElementsByClassName("popup")[0].style.display="block";
+}
+	function ofClick() {
+ 
+		document.getElementsByClassName("popup")[0].style.display="none";
+}
+</script>
+	  
+  </body>
+</html>
