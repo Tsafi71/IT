@@ -1,0 +1,44 @@
+/**
+ * ui v1.0
+ * Copyright Tsafi Y
+ 
+ */
+ .strip{
+background-color: rgba(255, 255, 255,.6);
+
+
+}
+.btn-common{
+background-color:#002857	
+	
+}
+.navbar-expand-md .navbar-nav .active > .nav-link, .navbar-expand-md .navbar-nav .nav-link.active, .navbar-expand-md .navbar-nav .nav-link.open, .navbar-expand-md .navbar-nav .open > .nav-link{
+color:#002857 !important;/* remove main line 540  */	
+	
+}
+/* manu no active text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); 
+.navbar-expand-md .navbar-nav .nav-link{
+color: #fff;
+background-color: rgba(178, 178, 178, 0.2);	
+
+}*/
+.top-nav-collapse .navbar-nav li.active a.nav-link {
+color:#002857 !important;/* remove main line 495  */	
+}
+.contact-right .contact-icon {
+background-color:#002857 !important;/* remove main line 495  */		
+color: #fff;
+}
+
+a.back-to-top i {
+background-color:#002857 !important;/* remove main line 227  */		
+color: #fff;	
+}
+
+.controls .active {
+border-color:#002857 !important;/* remove main.cc line 980  */			
+}
+
+#dontadd {
+display:none !important;/* remove main.cc line 980  */			
+}
